@@ -1,0 +1,27 @@
+.icons {
+  color: rgb(228, 83, 114);
+}
+
+.icons * {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.readOnly {
+  border: none;
+  width: 90%;
+  text-overflow: ellipsis;
+}
+
+.selected {
+  background: hsl(0, 0%, 90%);
+}
+
+.selected input {
+  background: hsl(0, 0%, 90%);
+}
+
+label {
+  display: inline-block;
+  width: 100%;
+}

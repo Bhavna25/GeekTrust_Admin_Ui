@@ -1,0 +1,30 @@
+.table {
+    width: 80vw;
+    margin:auto;
+    height: 80vh;
+    border-collapse:collapse;
+    table-layout:fixed;
+}
+
+
+
+.table tr {
+    border-bottom: 1px solid black;
+    text-align: left;
+    height: 10%;
+}
+
+.table th{
+    font-weight: bolder;
+    font-size: 1.2em;
+    padding: 4px 0 4px 0;
+}
+
+.table tbody {
+    font-weight: 100;
+}
+
+.table td {
+    padding: 2px 0 4px 0;
+}
+
